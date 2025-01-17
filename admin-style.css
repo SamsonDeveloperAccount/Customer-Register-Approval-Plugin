@@ -1,0 +1,43 @@
+/* admin-styles.css */
+
+/* Ensure the clinic name column text wraps and does not overflow */
+.clinic-name div,
+.abn div {
+    white-space: normal; /* Allow text to wrap */
+    overflow: visible;   /* Prevent overflow */
+    word-break: break-word; /* Break long words */
+}
+
+/* admin-styles.css */
+.user-approvals-wrap {
+    font-family: Arial, sans-serif;
+}
+
+.user-approvals-wrap .wp-list-table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.user-approvals-wrap .wp-list-table th,
+.user-approvals-wrap .wp-list-table td {
+    padding: 12px 15px;
+}
+
+.user-approvals-wrap .wp-list-table th {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+.user-approvals-wrap .wp-list-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.user-approvals-wrap .button {
+    margin-top: 5px;
+}
+
+.user-approvals-wrap input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
