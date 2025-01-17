@@ -1,0 +1,111 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+#MAXIFORE-CONCENT {
+	max-width:100% !important;
+}
+.fusion-tb-header{
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/* Custom message for non-logged-in users */
+.custom-price-message,
+.custom-cart-price-message,
+.custom-cart-total-message {
+    color: #ff0000; /* Red color for visibility */
+    font-weight: bold; /* Bold text */
+    font-size: 14px; /* Slightly larger font size */
+}
+
+
+/* General Styles */
+.woocommerce-form-register {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .form-row {
+      flex-direction: column;
+  }
+
+  .form-row .woocommerce-form-row {
+      width: 100% !important;
+      margin-bottom: 20px;
+  }
+
+  .form-row .woocommerce-form-row label {
+      margin-bottom: 5px;
+  }
+
+  .form-row .woocommerce-form-row input,
+  .form-row .woocommerce-form-row select {
+      width: 100%;
+  }
+
+  .form-row .form-group {
+      width: 100% !important;
+  }
+
+  .billing-section,
+  .delivery-section {
+      width: 100% !important;
+  }
+
+  .form-row {
+      gap: 0px;
+  }
+
+  .woocommerce-Button {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .woocommerce-form-row--wide {
+      padding: 0;
+  }
+}
+
+.discount-label {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    margin-left: 5px;
+    font-size: 16px;
+	border-radius: 3px;}
+/* }
+.yith-wcan-filter{display:flex;} */
+.filter-title{margin:0 0 0 0!important;padding-right:25px;}
+.filter-items {
+	display: flex;
+}
+
+.filter-item {
+	padding: 0px 15px 0px 15px;
+}
+
+/*my-account CSS*/
+
+.avada-myaccount-user{
+    display: none!important;
+}
+
+.woocommerce-MyAccount-navigation{
+    display: none;
+}
+.woocommerce-MyAccount-content {
+    width: 100%;
+    margin-left: 0!important;
+}
